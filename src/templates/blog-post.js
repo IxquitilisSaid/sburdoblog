@@ -5,12 +5,24 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import { EmoteFetcher, EmoteParser } from 'twitch-emoticons'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const fetcher = new EmoteFetcher()
+    const parser = new EmoteParser(fetcher, {
+      type: 'markdown',
+      match: /:(.+?):/g
+    })
+
+    fetcher.fetchTwitchEmotes().then(() => {
+      post.html = parser.parse(post.html);
+
+      return post.html;
+    })
 
     return (
       <Layout location={this.props.location} title={siteTitle}>

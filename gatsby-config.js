@@ -1,4 +1,8 @@
 module.exports = {
+  proxy: {
+    prefix: "/api",
+    url: "http://gondola.dev",
+  },
   siteMetadata: {
     title: `Sburdo Sbardo :DDDD`,
     author: `Jaime "Ixquitilis" Oliveira`,
@@ -63,7 +67,7 @@ module.exports = {
         background_color: `#F8F8FF`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/gondola-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
