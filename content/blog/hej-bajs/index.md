@@ -6,7 +6,7 @@ date: "2019-05-31T22:12:03.284Z"
 The can of Monster Ultra has long been relieved of its contents and my headphones have been blasting KPop and Gachi music for the last hour.<br/>
 I can’t remember how many times today I’ve adjusted the DPI on my mouse or edited the on-board memory macros for it.
 
-###**I’m bored**
+####**I’m bored**
 
 And it’s not the “productive” type of bored where you drew the Jira short stick and got stuck with an annoying ticket.<br/>
 It’s the type of boredom that only appears at the end of a Friday, where any other person would be planning a pub crawl with the lads.<br/>

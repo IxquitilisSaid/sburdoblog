@@ -14,8 +14,8 @@ class Layout extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            ...scale(0.75),
+            marginBottom: rhythm(1.25),
             marginTop: 0,
           }}
         >
