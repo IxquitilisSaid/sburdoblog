@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, a cool dude
+              Poorly written by <strong>{author}</strong>
               <br/>
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>

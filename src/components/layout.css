@@ -1,0 +1,30 @@
+body {
+  background-color: transparent !important;
+  background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
+  background-size: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+h3 {
+  position: relative;
+}
+
+h3::after{
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(to right, #fc28a8, #03edf9) !important;
+  opacity: 1;
+  z-index: 6;
+}
+
+p, 
+small,
+footer {
+  color: rgba(255, 255, 255, 0.88);
+}

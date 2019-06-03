@@ -4,10 +4,10 @@ module.exports = {
     url: "http://gondola.dev",
   },
   siteMetadata: {
-    title: `Sburdo Sbardo :DDDD`,
-    author: `Jaime "Ixquitilis" Oliveira`,
-    description: `Because Code and Design have the hots for eachother :DDD`,
-    siteUrl: `https://ixquitilis.dev/`,
+    title: `Kaksopiste DeDeDe`,
+    author: `Jaime "Gondola" Oliveira`,
+    description: `Because I don't know and I can.`,
+    siteUrl: `https://gondola.dev/`,
     social: {
       twitter: `SuperSeriousDev`,
     },
