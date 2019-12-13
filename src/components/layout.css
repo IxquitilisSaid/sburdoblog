@@ -27,7 +27,8 @@ p,
 small,
 footer,
 h4,
-h1 {
+h1,
+li {
   color: rgba(255, 255, 255, 0.88);
 }
 
