@@ -11,8 +11,8 @@ draft: true
 ![KPI](./KPI.png)<br/>
 ![Rate](./Rate.png)<br/>
 ![Votes](./Votes.png)<br/>
-![JobsNew](./Jobs-new-applications.png)<br/>
-![TeamChat](./Team-chats.png)<br/>
+![JobsNew](./JobsNew.png)<br/>
+![TeamChat](./TeamChats.png)<br/>
 
 
 
