@@ -22,8 +22,17 @@ class BlogIndex extends React.Component {
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+
+          console.log(posts);
+
+          // if (!node.frontmatter.published) {
+          //   return (
+          //     <div style={{ dis: `none` }}></div>
+          //   )
+          // }
+
           return (
-            <div key={node.fields.slug} style={{display: node.frontmatter.title === 'Shhhh' ? `none` : ``}}>
+            <div key={node.fields.slug}>
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
@@ -57,7 +66,8 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC },
+      filter: { frontmatter: { draft: { eq: false } } }
     ) {
       edges {
         node {

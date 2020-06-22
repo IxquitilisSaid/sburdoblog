@@ -1,6 +1,8 @@
 ---
 title: My Journey
 date: "2019-06-07T22:12:03.284Z"
+published: false
+draft: true
 ---
 
 ####**Hello World (bio)**

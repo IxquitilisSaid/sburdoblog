@@ -2,6 +2,7 @@
 title: I'm Gondola and I'm a Workaholic
 date: "2019-09-16T22:12:03.284Z"
 published: false
+draft: true
 ---
 
 Well... Hello again! You guys were probably wondering where I've been and the truth is I've been busy.<br/>

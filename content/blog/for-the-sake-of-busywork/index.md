@@ -1,6 +1,8 @@
 ---
 title: For the sake of busywork
 date: "2019-06-03T22:12:03.284Z"
+published: false
+draft: true
 ---
 
 In Brazil we have a saying: Looking for hairs on eggs.<br/>
